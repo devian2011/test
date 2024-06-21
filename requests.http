@@ -1,0 +1,22 @@
+### Calculate Price
+POST http://127.0.0.1:8337/calculate-price
+Accept: application/json
+Content-Type: application/json
+
+{
+  "product_id": 1,
+  "tax_number": "DE123456789",
+  "coupon": "F10"
+}
+
+### Execute Purchase
+POST http://127.0.0.1:8337/purchase
+Accept: application/json
+Content-Type: application/json
+
+{
+  "product_id": 1,
+  "tax_number": "IT12345678900",
+  "coupon": "P10",
+  "payment_processor": "paypal"
+}
