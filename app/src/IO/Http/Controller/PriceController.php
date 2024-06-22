@@ -4,7 +4,7 @@ namespace App\IO\Http\Controller;
 
 use App\UseCase\Good\PriceCalculationInterface;
 use App\UseCase\UseCaseException;
-use IO\Http\Request\PriceCalculationRequest;
+use App\IO\Http\Request\PriceCalculationRequest;
 use Psr\Log\LoggerInterface;
 use App\Service\ServiceException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

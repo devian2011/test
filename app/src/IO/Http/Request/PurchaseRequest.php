@@ -1,6 +1,6 @@
 <?php
 
-namespace IO\Http\Request;
+namespace App\IO\Http\Request;
 
 use App\Extension\Validator\Coupon;
 use App\Extension\Validator\Good;

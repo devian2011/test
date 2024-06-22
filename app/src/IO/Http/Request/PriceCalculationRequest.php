@@ -1,6 +1,6 @@
 <?php
 
-namespace IO\Http\Request;
+namespace App\IO\Http\Request;
 
 use App\UseCase\Good\PriceCalculationDataInterface;
 use App\Extension\Validator\Coupon;

@@ -3,7 +3,7 @@
 namespace App\IO\Http\Controller;
 
 use App\UseCase\UseCaseException;
-use IO\Http\Request\PurchaseRequest;
+use App\IO\Http\Request\PurchaseRequest;
 use Psr\Log\LoggerInterface;
 use App\Service\ServiceException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
